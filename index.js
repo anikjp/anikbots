@@ -15,6 +15,6 @@ app.listen(3000, () => console.log("Webhook server is listening, port 3000"));
 app.post("/", messageWebhookController.dialogflowFirebaseFulfillment);
 
 // respond with "hello world" when a GET request is made to the homepage
-app.get('/test', function (req, res) {
+app.get('/', function (req, res) {
   res.send('hello world');
 });
