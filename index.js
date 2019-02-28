@@ -8,7 +8,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
   extended: true
 }));
-app.listen(8080, () => console.log("Webhook server is listening, port 8080"));
+
+app.listen(80, () => console.log("Webhook server is listening, port 80"));
 
 // app.get("/", verificationController);
 
