@@ -1,0 +1,26 @@
+{
+  "name": "anikbot",
+  "version": "1.0.0",
+  "description": "This is for testing bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "anikbot"
+  ],
+  "author": "Anik Barua",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google": "^2.2.0",
+    "firebase-admin": "^5.13.1",
+    "firebase-functions": "^2.0.2",
+    "apiai": "^4.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "save": "^2.3.3",
+    "dialogflow": "^0.6.0",
+    "dialogflow-fulfillment": "^0.5.0"
+  }
+}
